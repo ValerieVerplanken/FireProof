@@ -1,0 +1,42 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+//Colors
+$red: #c7292a;
+
+
+.btn-primary{
+  margin-top: 32px;
+  float: right;
+  padding: 12px;
+}
+
+.btn-primary:focus{
+  background-color: $red;
+  box-shadow:none;
+  border:none;
+  outline:none;
+}
+
+.btn-primary:active:focus {
+  background-color: $red;
+  box-shadow: none;
+  border: none;
+  outline:none;
+}
+
+.btn-primary:hover{
+  background-color: $red;
+}
+
+.emergency{
+  width: 100px;
+  height: 50px;
+  background-color: $red;
+  border:none;
+  font-size: 1.7em;
+  font-family: "Kohinoor Devanagari", Kohinoor Devanagari, sans-serif;
+  font-weight: lighter;
+  margin-top:0;
+}
